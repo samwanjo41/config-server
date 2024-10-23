@@ -1,0 +1,12 @@
+mpesa:
+  api:
+    consumerKey: consumerKey
+    consumerSecret: secret
+    businessShortCode: xxxxx
+    callbackUrl: callbackUrl
+    passKey: passkey
+    auth:
+      url: https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials
+    stkPush:
+      url: https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest
+    
